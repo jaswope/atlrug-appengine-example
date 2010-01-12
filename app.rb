@@ -18,6 +18,7 @@ get '/' do
 end
 
 get '/stats' do
+  @title = "Memcache Stats"
   @stats = Counter.stats
   haml :stats
 end
