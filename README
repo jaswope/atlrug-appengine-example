@@ -1,0 +1,10 @@
+This is an example Sinatra app on Google App Engine.
+
+There are a couple of concepts illustrated, including a sharded counter using the direct datastore API, a Datamapper backed user based object, and simple usage of the Memcache and User APIs.
+
+To run locally:
+1. gem install google-appengine
+2. cd to the code directory
+2. dev_appserver.rb .
+
+It will bundle up the required gems and then start the development app server.
