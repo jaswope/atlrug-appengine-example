@@ -35,10 +35,6 @@ class Counter
       count
     end
 
-    def memcache_name(name)
-      memcache_name = "Counter::#{name}" 
-    end
-
     def stats
       memcache.stats
     end
